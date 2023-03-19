@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅游攻略</title>
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="dist/css/swiper.min.css">
+    <link rel="stylesheet" href="css/aside1.css">
+</head>
+
+<body>
+
+    <!-- shortcut开始 -->
+    <div class="shortcut">
+        <div class="w">
+            <div class="fl">
+                <ul>
+                    <li class="short_phone">电话:&nbsp <i> 0531-8286425666</i> </li>
+                    <li class="short_address">地址:&nbsp <i> 济南市历城区仲宫镇幸福路</i> </li>
+                    <li id="clock">
+                        <i>倒计时：</i> 距2022年7月1日还有
+                        <span class="cl1">00</span>天
+                        <span class="cl2">00</span>小时
+                        <span class="cl3">00</span>分钟
+                        <span class="cl4">00</span>秒
+                    </li>
+                </ul>
+            </div>
+            <div class="right">
+                <span class="icon1"></span>
+                <span class="icon2"></span>
+                <span class="icon3"></span>
+            </div>
+        </div>
+    </div>
+    <script src="js/index.js"></script>
+    <!-- shortcut结束 -->
+    <!-- nav开始 -->
+    <nav>
+        <a href="index.html">
+            <div class="left">
+                <i>
+            <img src="images/888888.gif" alt="">
+        </i>
+
+            </div>
+        </a>
+        <div class="right">
+            <ul>
+                <li>
+                    <a href="index.html" class="first" target="blank"> 网站首页</a>
+                    <i class="ones"></i>
+                </li>
+                <li>通知公告
+                    <i></i>
+                </li>
+                <li> <a href="aside1.html" class="three">旅游攻略</a>
+                    <i class="three"></i>
+                </li>
+                <a href="aside2.html" target="blank">客户服务</a>
+                <i class="fou"></i>
+                </li>
+            </ul>
+            <input type="text" placeholder="风景名胜~">
+            <!-- span放input里面的字体图标 -->
+            <span></span>
+            <div class="btn">
+                <di class="cove">搜 &nbsp&nbsp&nbsp&nbsp索</di> 搜 &nbsp&nbsp&nbsp&nbsp索
+            </div>
+        </div>
+    </nav>
+    <!-- nav结束 -->
+    <!-- rotation开始 -->
+    <!-- Swiper -->
+    <div class="swiper-container rotation">
+        <div class="parallax-bg bgi" data-swiper-parallax="-23%"></div>
+        <div class="swiper-wrapper">
+            <div class="swiper-slide ">
+                <div class="title gap10" data-swiper-parallax="-100">趵突泉</div>
+                <div class="subtitle gap5" data-swiper-parallax="-100">济南旅游第一站</div>
+                <div class="text gap10" data-swiper-parallax="-100">
+                    <p>趵突泉是公园中的主景，泉水分三股，澄澈清洌，昼夜喷涌，水盛时高达数尺,在趵突泉附近，还散布着金线泉、漱玉泉、洗钵泉、柳絮泉、皇华泉、杜康泉、白龙泉等三十多个名泉，构成了趵突泉泉群,公园的南大门富丽堂皇、雍容华贵，大门上的横匾“趵突泉”蓝底金字，是清朝乾隆皇帝的御笔，被人誉为中国园林“第一门”。</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title gap10" data-swiper-parallax="-10">大明湖</div>
+                <div class="subtitle gap5" data-swiper-parallax="-10">中国第一泉水湖</div>
+                <div class="text gap10" data-swiper-parallax="-10">
+                    <p>大明湖素有“一阁、三园、三楼、四祠、六岛、七桥、十亭”之说，有著名的明湖16景可以欣赏，游览大明湖除了步行之外，游船也是不错的选择，泛舟大明湖上，既轻松又不误观光，每年不定期有迎春花、兰花及盆景展；重点推荐荷花展，花期约为7月15日-8月31日。</p>
+                </div>
+            </div>
+            <div class="swiper-slide">
+                <div class="title gap10" data-swiper-parallax="-10">山东博物馆</div>
+                <div class="subtitle gap5" data-swiper-parallax="-10">综合性地志博物馆</div>
+                <div class="text gap10" data-swiper-parallax="-10">
+                    <p>山东博物馆坐落于济南市区东部，是国内最早成立的省级综合性地志博物馆，占地34000平方米左右，建筑面积21000平方米左右。宏伟、典雅的建筑群，体现了民族风格与现代艺术的结合，成为中国历史文化名城济南的一大景观。</p>
+                </div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination swiper-pagination-white"></div>
+        <!-- Add Navigation -->
+
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            nextButton: '.swiper-button-next',
+            prevButton: '.swiper-button-prev',
+            parallax: true,
+            speed: 600,
+        });
+    </script>
+    <!-- rotation结束 -->
+    <!-- content开始 -->
+    <div class="content">
+        <div class="box1">
+            <div class="left">
+                <div class="one">
+                    <img src="images/btq.JPG" alt="">
+                </div>
+                <div class="two">
+                    <h5>趵突泉</h5>
+                    趵突泉是公园中的主景，泉水分三股，澄澈清洌，昼夜喷涌，水盛时高达数尺,在趵突泉附近，还散布着金线泉、漱玉泉、洗钵泉、柳絮泉、皇华泉、杜康泉、白龙泉等三十多个名泉，构成了趵突泉泉群,公园的南大门富丽堂皇、雍容华贵，大门上的横匾“趵突泉”蓝底金字，是清朝乾隆皇帝的御笔，被人誉为中国园林“第一门”。
+                </div>
+            </div>
+            <div class="right">
+                <img src="images/btq.JPG" alt="">
+            </div>
+        </div>
+        <div class="box1">
+            <div class="left">
+                <div class="one">
+                    <img src="images/dmh.jpg" alt="">
+                </div>
+                <div class="two">
+                    <h5>大明湖</h5>
+                    大明湖素有“一阁、三园、三楼、四祠、六岛、七桥、十亭”之说，有著名的明湖16景可以欣赏，游览大明湖除了步行之外，游船也是不错的选择，泛舟大明湖上，既轻松又不误观光，每年不定期有迎春花、兰花及盆景展；重点推荐荷花展，花期约为7月15日-8月31日。</div>
+            </div>
+            <div class="right">
+                <div class="one">
+                    <img src="images/dmh.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- content结束 -->
+    <!-- contact开始 -->
+    <div class="contact clear">
+        <h5>联系我们</h5>
+        <p>请完整填写这张表格，以便与我联系，您可以在上午11:00到晚上10:00之间打电话给我</p>
+        <form action="#" class="clear">
+            <input type="text" class="names" placeholder="姓名">
+            <input type="text" class="emails" placeholder="邮箱">
+            <textarea name="message" cols="30" rows="10" placeholder="信息"></textarea>
+        </form>
+        <div class="pic">
+            <img src="images/q2.jpg" alt="">
+        </div>
+    </div>
+    <!-- contact结束 -->
+    <!--五张图开始  -->
+    <div class="content_bottom clear">
+        <ul>
+            <li id="bikes">
+                <span>
+                    <i id="bike"></i>
+                </span>
+                <img src="images/w2.jpg" alt="">
+            </li>
+            <li>
+                <span>
+                    <i></i>
+                </span>
+                <img src="images/w4.jpg" alt="">
+            </li>
+            <li>
+                <span>
+                    <i></i>
+                </span>
+                <img src="images/w5.jpg" alt="">
+            </li>
+            <li>
+                <span>
+                    <i></i>
+                </span>
+                <img src="images/w3.jpg" alt="">
+            </li>
+            <li>
+                <span>
+                    <i></i>
+                </span>
+                <img src="images/w1.jpg" alt="">
+            </li>
+        </ul>
+    </div>
+    <!--五张图结束  -->
+
+    <script src="js/index.js"></script>
+
+    <!-- footer底部start -->
+    <div class="footer ">
+        <div class="w ">
+            <div class="logo ">
+                <img src="images/index_logo.png " alt=" ">
+            </div>
+            <div class="infomation ">
+                <h4>咨询热线</h4>
+                <p>0531-88888888</p>
+                <p class="address ">地址：济南市历城区仲宫镇幸福路</p>
+                <p class="email ">邮箱:beautyjinna@163.com</p>
+
+            </div>
+            <div class="wx_pic ">
+                <img src="images/wx-icon.jpg " alt="济南市文化旅游局 ">
+                <p class="add ">济南市文化旅游局</p>
+            </div>
+            <div class="wx_pic2 ">
+                <img src="images/wx-icon2.jpg " alt="创作者微信 ">
+                <p class="add ">创作者微信</p>
+            </div>
+            <div class="mod_help ">
+                <dl>
+                    <dd>服务指南</dd>
+                    <dt>购物流程</dt>
+                    <dt>会员介绍</dt>
+                    <dt>生活旅行</dt>
+                    <dt>常见问题</dt>
+                    <dt>联系客服</dt>
+                    <dt>大家电啊</dt>
+                </dl>
+                <dl>
+                    <dd>新闻中心</dd>
+                    <dt>新闻资讯</dt>
+                    <dt>新闻聚焦</dt>
+                    <dt>视频中心</dt>
+
+                </dl>
+
+                <dl>
+                    <dd>旅游攻略</dd>
+                    <dt>景区攻略</dt>
+                    <dt>特色美食</dt>
+                    <dt>酒店住宿</dt>
+                    <dt>文创产品</dt>
+
+                </dl>
+                <dl>
+                    <dd>客户服务</dd>
+                    <dt>联系方式</dt>
+                    <dt>留言咨询</dt>
+                    <dt>百问百答</dt>
+
+                </dl>
+            </div>
+            <hr class="hr ">
+            <!-- copyright -->
+            <div class="copyright ">
+                地址:济南市历城区仲宫镇幸福路 邮编:100096 电话：400-618-4000 邮箱: beautyjinna@163.com
+            </div>
+        </div>
+    </div>
+    <!-- footer底部end -->
+</body>
+
+</html>

@@ -1,0 +1,23 @@
+.rotation {
+    overflow: hidden;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+nav .right ul li .first {
+    color: #000;
+}
+
+nav .right ul li .ones {
+    width: 0;
+}
+
+nav .right ul li .fou {
+    width: 80px;
+}
+
+nav .right ul li .four {
+    color: #d02552;
+   
+}

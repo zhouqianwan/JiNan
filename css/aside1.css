@@ -1,0 +1,154 @@
+/* .rotation {
+    width: 1300px;
+    height: 500px;
+    background-color: pink;
+} */
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+    background: #000;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    color: #fff;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 40px 60px;
+}
+
+.parallax-bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 130%;
+    height: 100%;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-position: center;
+}
+
+.swiper-slide .title {
+    font-size: 41px;
+    font-weight: 300;
+}
+
+.swiper-slide .subtitle {
+    font-size: 21px;
+}
+
+.swiper-slide .text {
+    font-size: 14px;
+    max-width: 400px;
+    line-height: 1.3;
+}
+
+.rotation {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+nav .right ul li .first {
+    color: #000;
+}
+
+nav .right ul li .one {
+    width: 0;
+}
+
+nav .right ul li .three {
+    width: 80px;
+}
+
+nav .right ul li .three {
+    color: #d02552;
+}
+
+nav .right ul li .fou {
+    width: 0px;
+}
+
+
+/* 间隙 */
+
+.gap10 {
+    margin-top: 10px;
+}
+
+.gap5 {
+    margin-top: 5px;
+}
+
+
+/* 背景图片 */
+
+.bgi {
+    width: 1300px;
+    background-image: url(../images/p5.jpg);
+}
+
+
+/* content开始 */
+
+.content {
+    width: 1300px;
+    height: 530px;
+    margin: 0 auto;
+}
+
+.content .box1 {
+    margin-top: 30px;
+    width: 1300px;
+    height: 250px;
+    background-color: #efefeb;
+}
+
+.content .box1 .left {
+    float: left;
+    width: 850px;
+    height: 250px;
+}
+
+.content .box1 .right {
+    overflow: hidden;
+    float: left;
+    width: 450px;
+    height: 250px;
+    background-color: pink;
+}
+
+.content .box1 .right img {
+    width: 100%;
+}
+
+.content .box1 .left .one {
+    float: left;
+    overflow: hidden;
+    width: 400px;
+    height: 100%;
+}
+
+.content .box1 .left .one img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .box1 .left .two {
+    padding: 20px;
+    text-indent: 2em;
+    float: left;
+    width: 450px;
+    height: 250px;
+    font-size: 16px;
+}
+
+.content .box1 .left .two h5 {
+    margin-bottom: 20px;
+    text-align: center;
+    margin-left: -60px;
+    font-size: 18px;
+}
+
+
+/* content结束 */

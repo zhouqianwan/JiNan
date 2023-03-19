@@ -1,0 +1,68 @@
+@font-face {
+    font-family: 'icomoon';
+    src: url('../fonts/icomoon.eot?fowqkb');
+    src: url('../fonts/icomoon.eot?fowqkb#iefix') format('embedded-opentype'), url('../fonts/icomoon.ttf?fowqkb') format('truetype'), url('../fonts/icomoon.woff?fowqkb') format('woff'), url('../fonts/icomoon.svg?fowqkb#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+em {
+    font-style: normal;
+}
+
+body,
+div,
+p,
+ul,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: "微软雅黑";
+    background-color: #f4f3f3;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+li {
+    list-style: none;
+}
+
+input,
+label {
+    vertical-align: top;
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+input,
+button {
+    border: 0;
+    outline: none;
+}
+
+i {
+    font-style: normal;
+}

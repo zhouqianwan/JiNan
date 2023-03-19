@@ -1,0 +1,371 @@
+.rotation {
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.swiper-container .swiper-slide {
+    width: 1300px;
+}
+
+.swiper-container .swiper-slide img {
+    height: auto !important;
+    transition: all .8s;
+}
+
+
+/* 轮播图用的swiper */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+
+
+/* 轮播图下边的 */
+
+.rotation .bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 1300px;
+    height: 60px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.rotation .bottom ul {
+    margin-left: 550px;
+}
+
+.rotation .bottom ul li {
+    width: 18px;
+    height: 18px;
+    margin-top: 21px;
+    float: left;
+    padding: 0 20px;
+}
+
+.rotation .bottom ul li::before {
+    content: '\e939';
+    font-family: 'icomoon';
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.rotation .bottom ul li:hover {
+    transform: rotate(360deg);
+    transition: all 1.5s;
+}
+
+.rotation .bottom ul li:hover::before {
+    transition: all .1s;
+    font-weight: 600;
+    color: red;
+}
+
+
+/* main开始 */
+
+.main {
+    width: 1300px;
+    margin: 0 auto;
+}
+
+.content1 {
+    width: 100%;
+    height: 500px;
+}
+
+.content1 .top {
+    position: relative;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    overflow: hidden;
+}
+
+.content1 .top img {
+    float: left;
+    width: 60px;
+    margin-top: 20px;
+}
+
+.content1 .top h4 {
+    float: left;
+    font-size: 28px;
+    font-weight: 600;
+    margin-left: 10px;
+    color: #000;
+}
+
+.content1 .top .btn {
+    position: absolute;
+    right: 0;
+}
+
+
+/* 按钮的遮罩层 */
+
+.content1 .top .btn .cove {
+    opacity: 0;
+    position: absolute;
+    top: -32px;
+    left: -130px;
+    width: 100px;
+    height: 32px;
+    background-color: #d02552;
+    margin-left: 30px;
+    margin-top: 32px;
+    border-radius: 16px;
+    line-height: 32px;
+    text-align: center;
+    z-index: 2;
+    color: #fff;
+}
+
+.content1 .top .together {
+    overflow: hidden;
+    margin-top: 32px;
+    margin-right: 30px;
+    width: 100px;
+    height: 32px;
+    position: relative;
+    float: left;
+    border-radius: 16px;
+}
+
+.content1 .top .together .one {
+    background-color: #d02552;
+    color: #fff;
+}
+
+
+/* 以下两个是鼠标悬停动画 */
+
+.content1 .top .together:hover span {
+    transform: translate(100px);
+    transition: all 1s;
+    opacity: 1;
+}
+
+.content1 .top .together:hover button {
+    transform: translate(50px);
+    opacity: 0;
+    transition: all .8s;
+}
+
+.content1 .top button {
+    position: absolute;
+    top: 0;
+    left: -30px;
+    display: inline-block;
+    width: 100px;
+    height: 32px;
+    background-color: #fff;
+    margin-left: 30px;
+    border-radius: 16px;
+    z-index: 1;
+}
+
+.content1 .bottom ul li {
+    float: left;
+    width: 287px;
+    height: 300px;
+    margin-right: 50px;
+    background-color: #fff;
+}
+
+.content1 .bottom ul li:nth-child(4) {
+    margin-right: 0;
+}
+
+
+/* li盒子的上边 */
+
+.content1 .bottom ul li .up {
+    position: relative;
+    overflow: hidden;
+    width: 287px;
+    height: 200px;
+}
+
+
+/* li的遮罩层 */
+
+.content1 .bottom ul li .up .cover {
+    /* 使用display效果会与transition效果冲突所以使用opacity: 0; */
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    width: 287px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.7);
+    font-size: 17px;
+    color: #fff;
+    transition: all .8s;
+}
+
+.ksqy {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.content1 .bottom ul li:hover .down h5 {
+    color: #d02552;
+    transition: all .5s;
+}
+
+.content1 .bottom ul li:hover .up .cover {
+    opacity: 1;
+}
+
+.content1 .bottom ul li .up img {
+    height: 100%;
+}
+
+.content1 .bottom ul li .down {
+    padding: 20px;
+}
+
+.content1 .bottom ul li .down h5 {
+    margin-top: -10px;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.content1 .bottom ul li .down p {
+    text-align-last: left;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+
+/* 三张图开始 */
+
+.three {
+    width: 1300px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.three .top h5 {
+    font-size: 18px;
+    color: #d02552;
+}
+
+.three .top .headline {
+    width: 1300px;
+    height: 60px;
+    line-height: 60px;
+    font-size: 45px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.three .top ul li {
+    float: left;
+    width: 400px;
+    height: 500px;
+    margin-right: 50px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.three .top ul li:nth-child(3) {
+    margin-right: 0;
+}
+
+.three .top ul li .up {
+    width: 100%;
+    height: 270px;
+    overflow: hidden;
+}
+
+.three .top ul li .up img {
+    width: 100%;
+}
+
+.three .top ul li .down h4 {
+    font-size: 24px;
+    color: #323946;
+    padding: 20px;
+    margin-top: 0px;
+}
+
+.three .top ul li .down p {
+    width: 350px;
+    height: 200px;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+
+/*三张图遮罩 */
+
+.three .top ul li span {
+    overflow: hidden;
+    opacity: 0;
+    position: absolute;
+    display: inline-block;
+    width: 400px;
+    height: 270px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.three .top ul li span i {
+    position: relative;
+    display: inline-block;
+    margin-top: 109px;
+    margin-left: 170px;
+    background-color: transparent;
+    line-height: 100px;
+    text-align: center;
+    width: 60px;
+    height: 60px;
+}
+
+.three .top ul li span i::after {
+    position: absolute;
+    top: -20px;
+    left: 0;
+    content: '\e939';
+    font-family: 'icomoon';
+    font-size: 14px;
+    color: #fff;
+    font-size: 60px;
+}
+
+.three .top ul li:hover span {
+    opacity: 1;
+    transition: all .8s;
+}
+
+.three .top ul li:hover span i {
+    transform: rotate(360deg);
+    transition: all 1.5s;
+}
+
+
+/* 三张图结束 */
